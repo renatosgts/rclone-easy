@@ -66,7 +66,7 @@ Siga os passos abaixo para que qualquer usuário instale e configure o sistema e
 
 1.  **Clonar o Repositório:**
     ```bash
-    git clone [https://github.com/renatosgts/rclone-easy.git](https://github.com/renatosgts/rclone-easy.git)
+    git clone https://github.com/renatosgts/rclone-easy.git
     cd rclone-easy
     ```
 

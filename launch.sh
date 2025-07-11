@@ -216,7 +216,6 @@ setup() {
     echo "Instalando script de trabalho em $WORKER_SCRIPT_PATH..."
     sudo tee "$WORKER_SCRIPT_PATH" > /dev/null << 'EOF'
 #!/bin/bash
-# Versão 8.0 - Usa nmcli e formatação correta
 
 CONFIG_FILE="$HOME/backup_tasks.json"
 if [ ! -f "$CONFIG_FILE" ]; then
